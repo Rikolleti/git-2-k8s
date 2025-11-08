@@ -42,6 +42,7 @@
 4. Подключиться локально к Service с помощью `kubectl port-forward` и вывести значение (curl или в браузере).
 
 Ответ:
+
 <img width="928" height="158" alt="Снимок экрана 2025-11-08 в 14 39 59" src="https://github.com/user-attachments/assets/33b1e01a-aa40-412f-8855-8b7426f270d7" />
 
 <img width="564" height="498" alt="Снимок экрана 2025-11-08 в 14 40 07" src="https://github.com/user-attachments/assets/52a32931-0224-4acc-9e3c-4f6325bb939b" />
