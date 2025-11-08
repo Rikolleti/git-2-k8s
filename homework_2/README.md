@@ -30,7 +30,7 @@
 Ответ:
 <img width="1512" height="76" alt="Снимок экрана 2025-11-08 в 13 52 46" src="https://github.com/user-attachments/assets/8a3f0b00-4515-428e-90b3-612a929222be" />
 
-<img width="560" height="498" alt="Снимок экрана 2025-11-08 в 13 53 07" src="https://github.com/user-attachments/assets/3a49d32d-4980-48d2-9aef-f1013cb5c633" />
+<img width="678" height="600" alt="Снимок экрана 2025-11-08 в 13 55 23" src="https://github.com/user-attachments/assets/73b8ea92-050d-41ee-947c-e1efd9d275c3" />
 
 ------
 
