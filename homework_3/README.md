@@ -52,6 +52,16 @@
 3. Создать и запустить Service. Убедиться, что Init запустился.
 4. Продемонстрировать состояние пода до и после запуска сервиса.
 
+Ответ:
+
+<img width="808" height="276" alt="Снимок экрана 2025-11-11 в 14 43 27" src="https://github.com/user-attachments/assets/c2220b13-948d-4653-a600-86aa2492d3e0" />
+
+<img width="791" height="394" alt="Снимок экрана 2025-11-11 в 14 44 03" src="https://github.com/user-attachments/assets/09e0c7bc-842a-4e44-987f-f8f63d6c19df" />
+
+<img width="719" height="207" alt="Снимок экрана 2025-11-11 в 14 44 26" src="https://github.com/user-attachments/assets/5177d905-6aef-447b-b18b-e9cd75912f1c" />
+
+<img width="1032" height="207" alt="Снимок экрана 2025-11-11 в 14 44 41" src="https://github.com/user-attachments/assets/7aaa4c82-b79d-4123-a873-b71a0ef459ab" />
+
 ------
 
 ### Правила приема работы
