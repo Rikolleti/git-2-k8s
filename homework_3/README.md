@@ -1,4 +1,4 @@
-# Домашнее задание к занятию «Запуск приложений в K8S»
+<img width="695" height="141" alt="Снимок экрана 2025-11-11 в 13 50 30" src="https://github.com/user-attachments/assets/c1626413-0cc8-4477-8dc7-145e53fc08ac" /># Домашнее задание к занятию «Запуск приложений в K8S»
 
 ### Цель задания
 
@@ -29,6 +29,19 @@
 3. Продемонстрировать количество подов до и после масштабирования.
 4. Создать Service, который обеспечит доступ до реплик приложений из п.1.
 5. Создать отдельный Pod с приложением multitool и убедиться с помощью `curl`, что из пода есть доступ до приложений из п.1.
+
+Ответ:
+
+<img width="695" height="141" alt="Снимок экрана 2025-11-11 в 13 50 30" src="https://github.com/user-attachments/assets/c55d6525-f2e2-4793-bbfd-c4ff1e6dd1bf" />
+
+<img width="704" height="161" alt="Снимок экрана 2025-11-11 в 13 51 05" src="https://github.com/user-attachments/assets/57f6d0f7-7960-4c78-b693-dcdad327efd7" />
+
+<img width="714" height="108" alt="Снимок экрана 2025-11-11 в 13 54 18" src="https://github.com/user-attachments/assets/77910af8-2c37-4d28-9077-f8ff906c259d" />
+
+<img width="810" height="157" alt="Снимок экрана 2025-11-11 в 13 56 24" src="https://github.com/user-attachments/assets/eff851d9-6dee-446c-9f2a-53eef79f4c18" />
+
+<img width="1160" height="533" alt="Снимок экрана 2025-11-11 в 13 56 55" src="https://github.com/user-attachments/assets/716b3e35-8029-4cdb-822c-a8fff69c309b" />
+
 
 ------
 
