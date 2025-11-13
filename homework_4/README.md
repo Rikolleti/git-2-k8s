@@ -77,6 +77,7 @@
 
 <img width="1157" height="545" alt="Снимок экрана 2025-11-14 в 01 29 41" src="https://github.com/user-attachments/assets/d61260ed-af03-45e6-92dc-053449d95eb1" />
 
+
 <img width="537" height="426" alt="Снимок экрана 2025-11-14 в 01 36 31" src="https://github.com/user-attachments/assets/54eb5bd8-800c-478a-aa20-66dade1adb7d" />
 
 
