@@ -114,6 +114,14 @@
   - `ingress.yaml`
 - Скриншоты проверки доступа (`curl` или браузер).
 
+Ответы:
+<img width="744" height="174" alt="1" src="https://github.com/user-attachments/assets/dc1440f5-de3c-44a3-8904-833c9df40ef3" />
+
+<img width="791" height="378" alt="2" src="https://github.com/user-attachments/assets/3717b705-ab57-487f-8f49-17b25d4ca3aa" />
+
+<img width="1025" height="481" alt="3" src="https://github.com/user-attachments/assets/f46a35d9-c538-41bd-984e-36d17fdf6a1a" />
+
+
 ---
 ## Шаблоны манифестов с учебными комментариями
 ### **1. Deployment (nginx + multitool)**
