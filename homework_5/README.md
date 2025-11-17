@@ -87,6 +87,22 @@
 - Описания:
   - объяснение наблюдаемого поведения ресурсов в двух последних шагах.
 
+Ответ:
+
+<img width="908" height="176" alt="Снимок экрана 2025-11-17 в 16 21 54" src="https://github.com/user-attachments/assets/ca851790-2acf-4097-9a36-cdff8fef5737" />
+
+<img width="1113" height="246" alt="Снимок экрана 2025-11-17 в 16 22 32" src="https://github.com/user-attachments/assets/55897928-5547-4929-abe6-16d13a474f86" />
+
+<img width="1113" height="517" alt="Снимок экрана 2025-11-17 в 16 23 46" src="https://github.com/user-attachments/assets/9f9a4af5-9d62-4580-8229-fe4c8fb1cf28" />
+
+Статус PV стал Released. Данные в /data/pv1/ остались, так как флаг persistentVolumeReclaimPolicy: Retain (после удаления PV ресурсы из внешних провайдеров автоматически не удаляются)
+
+<img width="1113" height="620" alt="Снимок экрана 2025-11-17 в 16 24 03" src="https://github.com/user-attachments/assets/6cb0ce81-84d6-4935-ae4e-b0b9e6437338" />
+
+<img width="1113" height="652" alt="Снимок экрана 2025-11-17 в 16 24 25" src="https://github.com/user-attachments/assets/d55924b6-3378-48f5-b45f-5c1fea51795e" />
+
+Файл на диске хоста не исчез, так как K8S управляет только объектом PV, он не владеет директорией.
+
 ------
 
 ## Задание 3. StorageClass
