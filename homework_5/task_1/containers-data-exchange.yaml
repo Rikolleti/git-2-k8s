@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: busybox-multitool-deployment
+  labels:
+    app: busybox
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: busybox
+  template:
+    metadata:
+      labels:
+        app: busybox
+    spec:
+      containers:
+        - name: busybox
+          image: busybox:latest
+          command: ["/bin/sh", "-c"]
+          args: ["echo $(date) > /input/result.txt; sleep 3600"]
+          volumeMounts:
+            - name: vol
+              mountPath: /input
+        - name: multitool
+          image: wbitt/network-multitool
+          volumeMounts:
+            - name: vol
+              mountPath: /output
+      volumes:
+        - name: vol
+          hostPath:
+            path: /var/data
