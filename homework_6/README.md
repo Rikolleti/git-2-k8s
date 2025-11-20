@@ -61,6 +61,12 @@
   - `configmap-web.yaml`
 - Скриншот вывода `curl` или браузера
 
+Ответ:
+<img width="1112" height="74" alt="Снимок экрана 2025-11-20 в 21 29 24" src="https://github.com/user-attachments/assets/0d657526-0395-4e30-8706-889e9a4472cd" />
+
+<img width="560" height="184" alt="Снимок экрана 2025-11-20 в 21 29 39" src="https://github.com/user-attachments/assets/e843143f-59c6-4fd3-ae30-2389b42ec1b5" />
+
+
 ---
 ## **Задание 2: Настройка HTTPS с Secrets**  
 ### **Задача**  
@@ -108,88 +114,6 @@ openssl x509 -req -in developer.csr -CA {CA серт вашего кластер
 - Команды генерации сертификатов
 - Скриншот проверки прав (`kubectl get pods --as=developer`)
 
----
-## Шаблоны манифестов с учебными комментариями
-### **1. Deployment с ConfigMap (nginx + multitool)**
-```yaml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: web-app
-spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: web-app
-  template:
-    metadata:
-      labels:
-        app: web-app
-    spec:
-      containers:
-      - name: nginx
-        image: nginx:latest
-        ports:
-        - containerPort: 80
-        volumeMounts:
-        - name: nginx-config # ПОДКЛЮЧЕНИЕ ConfigMap
-          mountPath: /etc/nginx/conf.d
-      volumes:
-      - name: nginx-config
-        configMap:
-          name: nginx-config # УКАЖИТЕ имя созданного ConfigMap
-```
-### **2. ConfigMap для веб-страницы**
-```yaml
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: web-content # ИЗМЕНИТЕ: Укажите имя ConfigMap
-  namespace: default # ОПЦИОНАЛЬНО: Укажите namespace, если не default
-data:
-  # КЛЮЧЕВОЙ МОМЕНТ: index.html будет подключен как файл
-  index.html: |
-    <!DOCTYPE html>
-    <html>
-    <head>
-      <title>Страница из ConfigMap</title> # ИЗМЕНИТЕ: Заголовок страницы
-    </head>
-    <body>
-      <h1>Привет от Kubernetes!</h1> # ДОБАВЬТЕ: Свой контент страницы
-    </body>
-    </html>
-```
-
-### **3. Secret для TLS-сертификата**
-```yaml
-apiVersion: v1
-kind: Secret
-metadata:
-  name: tls-secret # ИЗМЕНИТЕ при необходимости
-type: kubernetes.io/tls
-data:
-  tls.crt: # ЗАМЕНИТЕ на base64-код сертификата (cat tls.crt | base64 -w 0)
-  tls.key: # ЗАМЕНИТЕ на base64-код ключа (cat tls.key | base64 -w 0)
-```
-### **4. Role для просмотра подов**
-```yaml
-apiVersion: rbac.authorization.k8s.io/v1
-kind: Role
-metadata:
-  name: pod-viewer # ИЗМЕНИТЕ: Название роли
-  namespace: default # ВАЖНО: Role работает только в указанном namespace
-rules:
-- apiGroups: [""] # КЛЮЧЕВОЙ МОМЕНТ: "" означает core API group
-  resources: # РАЗРЕШЕННЫЕ РЕСУРСЫ:
-    - pods # Доступ к просмотру подов
-    - pods/log # Доступ к логам подов
-  verbs: # РАЗРЕШЕННЫЕ ДЕЙСТВИЯ:
-    - get # Просмотр отдельных подов
-    - list # Список всех подов
-    - watch # Мониторинг изменений
-    - describe # Просмотр деталей
-# ДОПОЛНИТЕЛЬНО: Можно добавить больше правил для других ресурсов
-```
 ---
 
 ## **Правила приёма работы**
