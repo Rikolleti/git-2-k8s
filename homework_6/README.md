@@ -88,6 +88,10 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
   - `ingress-tls.yaml`
 - Скриншот вывода `curl -k`
 
+Ответ:
+<img width="847" height="516" alt="Снимок экрана 2025-11-21 в 21 21 03" src="https://github.com/user-attachments/assets/df22f0c6-43a8-4456-b311-58f9302b579a" />
+
+
 ---
 ## **Задание 3: Настройка RBAC**  
 ### **Задача**  
