@@ -1,0 +1,6 @@
+name: nginx
+metadata:
+  namespace: default
+image:
+  name: nginx
+  tag: latest
