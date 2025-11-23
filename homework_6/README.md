@@ -119,6 +119,15 @@ openssl x509 -req -in developer.csr -CA {CA серт вашего кластер
 - Команды генерации сертификатов
 - Скриншот проверки прав (`kubectl get pods --as=developer`)
 
+Ответ:
+
+<img width="1148" height="28" alt="Снимок экрана 2025-11-21 в 21 43 09" src="https://github.com/user-attachments/assets/0dc16c96-3683-4705-b309-0899911b0b95" />
+
+<img width="996" height="319" alt="Снимок экрана 2025-11-21 в 21 43 32" src="https://github.com/user-attachments/assets/421de225-14fa-4c23-8218-6afd73aabd11" />
+
+<img width="943" height="108" alt="Снимок экрана 2025-11-21 в 21 43 57" src="https://github.com/user-attachments/assets/8629f596-0bba-4d2c-b24a-e4fd68d6e3cf" />
+
+
 ---
 
 ## **Правила приёма работы**
