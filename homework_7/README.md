@@ -27,12 +27,28 @@
 2. Каждый компонент приложения деплоится отдельным deployment’ом или statefulset’ом.
 3. В переменных чарта измените образ приложения для изменения версии.
 
+Ответ:
+<img width="994" height="307" alt="Снимок экрана 2025-11-23 в 19 19 41" src="https://github.com/user-attachments/assets/84989a7e-ff97-429f-94bd-737198798ea7" />
+
+<img width="540" height="194" alt="Снимок экрана 2025-11-23 в 19 25 57" src="https://github.com/user-attachments/assets/c43e7f4c-6759-444c-abba-6974e2e58b92" />
+
+<img width="929" height="92" alt="Снимок экрана 2025-11-23 в 19 35 16" src="https://github.com/user-attachments/assets/2bb672c3-670e-41cc-91f5-84e917972853" />
+
+
 ------
 ### Задание 2. Запустить две версии в разных неймспейсах
 
 1. Подготовив чарт, необходимо его проверить. Запуститe несколько копий приложения.
 2. Одну версию в namespace=app1, вторую версию в том же неймспейсе, третью версию в namespace=app2.
 3. Продемонстрируйте результат.
+
+Ответ:
+<img width="1259" height="576" alt="Снимок экрана 2025-11-23 в 19 45 52" src="https://github.com/user-attachments/assets/1d192c26-f2b4-4ffe-b018-6c3bd670fc24" />
+
+<img width="1046" height="123" alt="Снимок экрана 2025-11-23 в 19 46 06" src="https://github.com/user-attachments/assets/8b155407-e489-42d6-ade0-8a9c3319c91b" />
+
+<img width="851" height="84" alt="Снимок экрана 2025-11-23 в 19 46 29" src="https://github.com/user-attachments/assets/e10938d9-fd44-4950-b3f1-4558dfba972d" />
+
 
 ### Правила приёма работы
 
