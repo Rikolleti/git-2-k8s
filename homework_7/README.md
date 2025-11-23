@@ -28,6 +28,7 @@
 3. В переменных чарта измените образ приложения для изменения версии.
 
 Ответ:
+
 <img width="994" height="307" alt="Снимок экрана 2025-11-23 в 19 19 41" src="https://github.com/user-attachments/assets/84989a7e-ff97-429f-94bd-737198798ea7" />
 
 <img width="540" height="194" alt="Снимок экрана 2025-11-23 в 19 25 57" src="https://github.com/user-attachments/assets/c43e7f4c-6759-444c-abba-6974e2e58b92" />
@@ -43,6 +44,7 @@
 3. Продемонстрируйте результат.
 
 Ответ:
+
 <img width="1259" height="576" alt="Снимок экрана 2025-11-23 в 19 45 52" src="https://github.com/user-attachments/assets/1d192c26-f2b4-4ffe-b018-6c3bd670fc24" />
 
 <img width="1046" height="123" alt="Снимок экрана 2025-11-23 в 19 46 06" src="https://github.com/user-attachments/assets/8b155407-e489-42d6-ade0-8a9c3319c91b" />
