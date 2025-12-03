@@ -25,6 +25,7 @@
 5. Продемонстрировать, что трафик разрешён и запрещён.
 
 Ответ:
+
 <img width="729" height="170" alt="1" src="https://github.com/user-attachments/assets/2a1687d4-4546-4e3f-b510-86316dd43f8d" />
 
 <img width="719" height="84" alt="2" src="https://github.com/user-attachments/assets/888f45eb-eab6-4d14-9e17-16052bb140d2" />
