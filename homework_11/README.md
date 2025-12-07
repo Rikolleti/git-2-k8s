@@ -43,6 +43,7 @@
 
 <img width="897" height="90" alt="4" src="https://github.com/user-attachments/assets/99dbff09-d764-4538-8749-ff98e661962f" />
 
+
 Меняю версию nginx до 1.28
 
 <img width="292" height="601" alt="5" src="https://github.com/user-attachments/assets/6736c89e-7024-4573-87a0-eb0d9e48062b" />
