@@ -1,5 +1,3 @@
-<img width="897" height="90" alt="4" src="https://github.com/user-attachments/assets/add9457e-2db3-44a5-a5e4-e79ccdeafa1a" /># Домашнее задание к занятию «Обновление приложений»
-
 ### Цель задания
 
 Выбрать и настроить стратегию обновления приложения.
