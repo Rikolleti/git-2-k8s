@@ -1,4 +1,4 @@
-# Домашнее задание к занятию «Обновление приложений»
+<img width="897" height="90" alt="4" src="https://github.com/user-attachments/assets/add9457e-2db3-44a5-a5e4-e79ccdeafa1a" /># Домашнее задание к занятию «Обновление приложений»
 
 ### Цель задания
 
@@ -29,6 +29,32 @@
 2. Обновить версию nginx в приложении до версии 1.20, сократив время обновления до минимума. Приложение должно быть доступно.
 3. Попытаться обновить nginx до версии 1.28, приложение должно оставаться доступным.
 4. Откатиться после неудачного обновления.
+
+Ответ:
+
+<img width="925" height="277" alt="1" src="https://github.com/user-attachments/assets/938e2059-0bba-4e6f-9f0d-801014f380eb" />
+
+Меняю версию на 1.20 и через maxUnavailable: 0 оставляю все поды доступными до создания новых подов с новой версией.
+<img width="292" height="601" alt="2" src="https://github.com/user-attachments/assets/a6f51f7c-fbcc-4514-b443-d2b577f981e5" />
+
+Запускаю kubectl apply -f app.yaml:
+<img width="735" height="867" alt="3" src="https://github.com/user-attachments/assets/936d1fbe-7c52-46a8-9362-a42e3faf9170" />
+
+Список текущих деплоев:
+
+<img width="897" height="90" alt="4" src="https://github.com/user-attachments/assets/99dbff09-d764-4538-8749-ff98e661962f" />
+
+Меняю версию nginx до 1.28
+<img width="292" height="601" alt="5" src="https://github.com/user-attachments/assets/6736c89e-7024-4573-87a0-eb0d9e48062b" />
+
+Запускаю kubectl apply -f app.yaml, все поднялось:
+<img width="797" height="908" alt="6" src="https://github.com/user-attachments/assets/06daf3d0-7798-4e4a-9992-39f7e63fd14b" />
+
+<img width="742" height="125" alt="7" src="https://github.com/user-attachments/assets/43f2866d-8f6e-4687-aa7d-017ffd225465" />
+
+Откатываюсь на предыдущую версию:
+<img width="918" height="885" alt="8" src="https://github.com/user-attachments/assets/4ac0cd0b-0b9a-422a-9f82-da5fdd1fea12" />
+
 
 ## Дополнительные задания — со звёздочкой*
 
